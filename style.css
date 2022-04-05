@@ -1,0 +1,220 @@
+*{
+    margin:0;
+    padding:0;
+}
+.Container{
+    margin: 0 auto;
+    width: 100%;
+    height:100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.topnav{
+    margin: auto;
+    width: 90%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.secondnav{
+    margin:5px auto;
+    width: 75%;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 5px solid black;
+    padding:10px;
+}
+.secondnav ul{
+    display: flex;
+    list-style-type: none;
+}
+.secondnav ul li{
+    padding: 50px;
+    margin: auto;
+}
+h1{
+    font-size: xx-large;
+    
+    font-family: "Courier New", monospace;
+    font-weight: bolder;
+}
+
+.topnav ul{
+    display: flex;
+    list-style-type: none;
+}
+
+.topnav ul li{
+    padding:25px;
+    margin: auto;
+    color: black;
+}
+.topnav li img{
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+}
+.leaf{
+    background-color: rgb(5,209,177);
+}
+.Search{
+    width:550px;
+    height:25px;
+    border-radius: 15px;
+}
+.CenterBody{
+    width: 75%;
+    height:600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+h2{
+    margin:10px auto;
+    font-family: Didot, "Didot LT STD";
+    font-weight: lighter;
+    font-size: xx-large;
+
+}
+.TopCenter{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 50%;
+}
+.LeftCenter{
+    display: flex;
+    width: 60%;
+    height:80%;
+    background-color: rgb(5,209,177);
+    margin: auto;
+}
+
+.RightCenter{
+    width: 30%; 
+    height:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+/*.BottomCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width:95%;
+    height: 40%;
+    margin:auto;
+    background-color: rgb(170,232,216);
+} */
+.Discover{
+    display: flex;
+    width:50%;
+    height:100%;
+    flex-direction: column;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Discover p{
+    margin: auto 20px;
+    padding: auto 10px;
+    font-weight: lighter;
+}
+.LeftCenter img{
+    width: 50%;
+    height:100%;
+}
+
+.RightCenter img{
+    width:100%;
+    height: 60%;
+    margin:0px auto;
+}
+.RightBox{
+    display: flex;
+    color: white;
+    margin: 10px auto;  
+    padding: auto 10px;
+    font-weight: lighter;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(5,209,177);
+    width:100%;
+    height:40%;
+
+}
+.BottomCenter img{
+    border-radius: 50%;
+    height: 100px;
+    width:100px;
+    margin: auto;
+}
+.BottomCenter ul{
+    display: flex;
+    margin:0 auto;
+    list-style-type: none;
+    flex-direction: row;
+    
+}
+.BottomCenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width:95%;
+    height: 40%;
+    margin:auto;
+    background-color: rgb(170,232,216);
+}
+
+.BottomCenter li{
+    margin:auto 30px;
+}
+
+.BottomCenter p{
+    margin: auto 20px;
+}
+#Arrow {
+    display:inline-block;
+    margin: -10px 0;
+    width: 70px;
+    height: 30px;
+}
+#Arrow1 {
+    display:inline-block;
+    margin: -10px 0;
+    width: 70px;
+    height: 30px;
+}
+.pop-up{
+    width:100%;
+    height:180px;
+    border:2px solid black;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.pop-up img{
+    width: 50px;
+    height: 50px;
+}
+.pop-up button{
+    background-color: rgb(5,209,177);
+    width:100px;
+    height:30px;
+    color: white;
+    box-shadow: 3px 5px black;
+
+}
